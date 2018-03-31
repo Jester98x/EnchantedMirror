@@ -15,6 +15,7 @@ The intention is to be moduler, simple speech recognistion, person recognition a
 |Twitter|Display latest *x* tweets from Twitter|
 |Diary|Integrate with, for example, Google to retrieve users schedule|
 |Internet Radio|Play a radio stream|
+|Music Player|Basic music player|
 
 ### Speech control
 The idea that there is a monitor of some description sat behind a two-way mirror doesn't appeal if it remains on at all time.
@@ -27,6 +28,7 @@ Speech can also be used to:
 * Display the detail of a sheduled item in the users diary
 * Expand the diary view, i.e. `this week`, `this month` or `this afternoon`
 * Switch radio stations
+* Control the music player, such as next song, select play list etc.
 
 
 ## Contributing
