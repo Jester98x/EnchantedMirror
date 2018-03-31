@@ -6,12 +6,12 @@ The intention is to be moduler, simple speech recognistion, person recognition a
 ## Planned features
 |**Feature**|**Description**|**Status**|
 |---|---|---|
-|Digital Clock|Display the time in 12 or 24 hour format|Done|
+|Digital Clock|Display the time in 12 or 24 hour format|:white_check_mark:|
 |Analog Clock|Display an analog clock with customisation options||
-|Current Date|Allow date to be displayed based on user defined configuration, for example `Wednesday, 29th June 2016`|Done|
+|Current Date|Allow date to be displayed based on user defined configuration, for example `Wednesday, 29th June 2016`|:white_check_mark:|
 |Current Weather|Obtain current weather information for a given location and display temperature, conditions, wind speed and direction, sunrise and sunset||
 |Weather Forecast|Display the weather outlook for a given location||
-|News Headlines|Display headlines from feed|Done|
+|News Headlines|Display headlines from feed|:white_check_mark:|
 |Twitter|Display latest *x* tweets from Twitter||
 |Diary|Integrate with, for example, Google to retrieve users schedule||
 |Internet Radio|Play a radio stream||
