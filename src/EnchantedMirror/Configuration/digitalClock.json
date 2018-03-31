@@ -1,0 +1,20 @@
+﻿{
+  // The name of the module
+  "module": "DigitalClock",
+
+  // Where to place it on screen
+  "position": {
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top",
+    "margin": {
+      "left": 8,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    } 
+  },
+  // Attributes
+  "attributes": {
+    "format": "24hr"
+  }
+}

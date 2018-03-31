@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27520.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnchantedMirror", "src\EnchantedMirror\EnchantedMirror.csproj", "{A7F6950D-B68E-4466-8D92-DEB63888E354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4651A2C6-5268-4A3C-992B-189920878E68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FC388DD5-AE48-4720-9A23-474140152714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{D2A69729-94B1-4F8F-BA1F-07418749D9D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|ARM.Build.0 = Debug|ARM
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|x64.ActiveCfg = Debug|x64
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|x64.Build.0 = Debug|x64
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|x64.Deploy.0 = Debug|x64
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|x86.ActiveCfg = Debug|x86
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|x86.Build.0 = Debug|x86
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Debug|x86.Deploy.0 = Debug|x86
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|ARM.ActiveCfg = Release|ARM
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|ARM.Build.0 = Release|ARM
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|ARM.Deploy.0 = Release|ARM
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|x64.ActiveCfg = Release|x64
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|x64.Build.0 = Release|x64
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|x64.Deploy.0 = Release|x64
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|x86.ActiveCfg = Release|x86
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|x86.Build.0 = Release|x86
+		{A7F6950D-B68E-4466-8D92-DEB63888E354}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7F6950D-B68E-4466-8D92-DEB63888E354} = {4651A2C6-5268-4A3C-992B-189920878E68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0129F91A-365D-4D7F-A9EB-CA6EFE177D16}
+	EndGlobalSection
+EndGlobal
