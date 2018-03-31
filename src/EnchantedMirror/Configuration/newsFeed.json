@@ -1,0 +1,38 @@
+﻿{
+  // The name of the module
+  "module": "NewsFeed",
+
+  // Where to place it on screen
+  "position": {
+    "horizontalAlignment": "center",
+    "verticalAlignment": "bottom",
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  // Attributes
+  "attributes": {
+    "defaultFeed": "CNET - News",
+    "feeds": [
+      {
+        "name": "BBC News - UK",
+        "uri": "http://feeds.bbci.co.uk/news/uk/rss.xml"
+      },
+      {
+        "name": "BBC News - Technology",
+        "uri": "http://feeds.bbci.co.uk/news/technology/rss.xml"
+      },
+      {
+        "name": "BBC News - Entertainment",
+        "uri": "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
+      },
+      {
+        "name": "CNET - News",
+        "uri": "https://www.cnet.com/rss/news/"
+      }
+    ]
+  }
+}

@@ -12,5 +12,6 @@
 
         <Custom:DigitalClock Name="digitalClock" />
 
+        <Custom:NewsFeed Name="newsFeed" />
     </Grid>
 </Page>

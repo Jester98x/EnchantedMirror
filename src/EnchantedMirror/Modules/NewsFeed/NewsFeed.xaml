@@ -1,0 +1,53 @@
+﻿<UserControl
+    x:Class="EnchantedMirror.Modules.NewsFeed"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EnchantedMirror.Modules"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel Height="100">
+            <StackPanel.Resources>
+                <Storyboard x:Name="fadeNewsOut">
+                    <DoubleAnimation 
+                        Storyboard.TargetName="newsHeadline"
+                        Storyboard.TargetProperty="Opacity"
+                        From="1.0" To="0.0"
+                        Duration="0:0:2" />
+                    <FadeOutThemeAnimation
+                        Storyboard.TargetName="newsAge"
+                        Duration="0:0:2" />
+                </Storyboard>
+                <Storyboard x:Name="fadeNewsIn">
+                    <DoubleAnimation 
+                        Storyboard.TargetName="newsHeadline"
+                        Storyboard.TargetProperty="Opacity"
+                        From="0.0" To="1.0"
+                        Duration="0:0:2" />
+                    <FadeInThemeAnimation
+                        Storyboard.TargetName="newsAge"
+                        Duration="0:0:2" />
+                </Storyboard>
+            </StackPanel.Resources>
+            <TextBlock x:Name="feedName"
+                       Foreground="LightGray"
+                       TextAlignment="Center"
+                       FontSize="16"
+                       Text="{x:Bind NewsSource, Mode=OneWay}"/>
+
+            <TextBlock x:Name="newsHeadline"
+                       Foreground="White"
+                       TextAlignment="Center"
+                       FontSize="32"
+                       Text="{x:Bind NewsHeadline, Mode=OneWay}" />
+
+            <TextBlock x:Name="newsAge"
+                       Foreground="Gray"
+                       FontSize="14"
+                       TextAlignment="Center"
+                       Text="{x:Bind NewsAge, Mode=OneWay}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
