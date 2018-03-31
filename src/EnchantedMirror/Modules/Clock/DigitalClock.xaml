@@ -1,8 +1,8 @@
 ﻿<UserControl
-    x:Class="EnchantedMirror.Modules.Clock.DigitalClock"
+    x:Class="EnchantedMirror.Modules.DigitalClock"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:EnchantedMirror.Modules.Clock"
+    xmlns:local="using:EnchantedMirror.Modules"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -10,8 +10,9 @@
     d:DesignWidth="270">
 
     <Grid>
-        <RelativePanel Height="64" MinWidth="270">
-            <TextBlock FontStretch="Normal"
+        <StackPanel>
+            <RelativePanel Height="64" MinWidth="270">
+                <TextBlock FontStretch="Normal"
                     Margin="0,-10,0,0"
                     Text="{x:Bind TheTime, Mode=OneWay}"
                     Foreground="White"
@@ -19,7 +20,7 @@
                     FontFamily="Segoe UI"
                     FontSize="52"
                     x:Name="time"/>
-            <TextBlock FontStretch="Normal"
+                <TextBlock FontStretch="Normal"
                      Margin="220,-2,0,0"
                      Text=""
                      Foreground="Gray"
@@ -27,6 +28,14 @@
                      FontFamily="Segoe UI"
                      FontSize="32"
                      x:Name="seconds" />
-        </RelativePanel>
+            </RelativePanel>
+            <TextBlock FontStretch="Normal"
+                 Text="{x:Bind TheDate, Mode=OneWay}"
+                 Foreground="White"
+                 FontWeight="Thin"
+                 FontFamily="Segoe UI"
+                 FontSize="18"
+                 x:Name="date"/>
+        </StackPanel>
     </Grid>
 </UserControl>

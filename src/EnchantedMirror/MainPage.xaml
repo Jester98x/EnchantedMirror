@@ -4,13 +4,13 @@
     xmlns:local="using:EnchantedMirror"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:Custom="using:EnchantedMirror.Modules.Clock"
+    xmlns:Custom="using:EnchantedMirror.Modules"
     x:Class="EnchantedMirror.MainPage"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Custom:DigitalClock Name="dClock" />
+        <Custom:DigitalClock Name="digitalClock" />
 
     </Grid>
 </Page>
