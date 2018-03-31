@@ -4,18 +4,18 @@
 The intention is to be moduler, simple speech recognistion, person recognition and interactions with assistants such as Alexa and Google Home
 
 ## Planned features
-|**Feature**|**Description**|
-|---|---|
-|Digital Clock|Display the time in 12 or 24 hour format|
-|Analog Clock|Display an analog clock with customisation options|
-|Current Date|Allow date to be displayed based on user defined configuration, for example `Wednesday, 29th June 2016`|
-|Current Weather|Obtain current weather information for a given location and display temperature, conditions, wind speed and direction, sunrise and sunset|
-|Weather Forecast|Display the weather outlook for a given location|
-|News Headlines|Display headlines from feed|
-|Twitter|Display latest *x* tweets from Twitter|
-|Diary|Integrate with, for example, Google to retrieve users schedule|
-|Internet Radio|Play a radio stream|
-|Music Player|Basic music player|
+|**Feature**|**Description**|**Status**|
+|---|---|---|
+|Digital Clock|Display the time in 12 or 24 hour format|Done|
+|Analog Clock|Display an analog clock with customisation options||
+|Current Date|Allow date to be displayed based on user defined configuration, for example `Wednesday, 29th June 2016`|Done|
+|Current Weather|Obtain current weather information for a given location and display temperature, conditions, wind speed and direction, sunrise and sunset||
+|Weather Forecast|Display the weather outlook for a given location||
+|News Headlines|Display headlines from feed|Done|
+|Twitter|Display latest *x* tweets from Twitter||
+|Diary|Integrate with, for example, Google to retrieve users schedule||
+|Internet Radio|Play a radio stream||
+|Music Player|Basic music player||
 
 ### Speech control
 The idea that there is a monitor of some description sat behind a two-way mirror doesn't appeal if it remains on at all time.
