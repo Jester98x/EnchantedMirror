@@ -1,0 +1,25 @@
+﻿{
+  // The name of the module
+  "module": "CurrentWeather",
+
+  // Where to place it on screen
+  "position": {
+    "horizontalAlignment": "right",
+    "verticalAlignment": "top",
+    "margin": {
+      "left": 8,
+      "top": 0,
+      "right": 20,
+      "bottom": 0
+    }
+  },
+  // Attributes
+  "attributes": {
+    "openWeatherMap": {
+      "key": "yourkeyhere",
+      "locationId": "2652053",
+      "units": "metric",
+      "uri": "http://api.openweathermap.org/data/2.5/weather"
+    }
+  }
+}
