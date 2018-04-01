@@ -10,7 +10,15 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Custom:DigitalClock Name="digitalClock" />
+        <RelativePanel 
+            VerticalAlignment="Top"
+            HorizontalAlignment="Right">
+            <Custom:DigitalClock 
+                Name="digitalClock" />
+            <Custom:CurrentWeather 
+                Name="currnetWeather"
+                RelativePanel.RightOf="digitalClock"/>
+        </RelativePanel>
 
         <Custom:NewsFeed Name="newsFeed" />
     </Grid>
