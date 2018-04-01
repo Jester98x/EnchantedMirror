@@ -9,7 +9,7 @@ The intention is to be moduler, simple speech recognistion, person recognition a
 |Digital Clock|Display the time in 12 or 24 hour format|:white_check_mark:|
 |Analog Clock|Display an analog clock with customisation options||
 |Current Date|Allow date to be displayed based on user defined configuration, for example `Wednesday, 29th June 2016`|:white_check_mark:|
-|Current Weather|Obtain current weather information for a given location and display temperature, conditions, wind speed and direction, sunrise and sunset||
+|Current Weather|Obtain current weather information for a given location and display temperature, conditions, wind speed and direction, sunrise and sunset|:white_check_mark:|
 |Weather Forecast|Display the weather outlook for a given location||
 |News Headlines|Display headlines from feed|:white_check_mark:|
 |Twitter|Display latest *x* tweets from Twitter||
@@ -39,3 +39,8 @@ Please bear with me. I'm new to publishing anything out to the public, so may ta
 
 ## License
 The project is licensed under the [MIT license](LICENSE.MD)
+
+## Inspiration and external references
+* Inspiration from [MagicMirror²](https://github.com/MichMich/MagicMirror) by [Michael Teeuw](https://github.com/MichMich)
+* [Weather API](https://openweathermap.org/api)
+* [Weather Icons](http://erikflowers.github.io/weather-icons/) by [Erik Flowers](https://github.com/erikflowers)
