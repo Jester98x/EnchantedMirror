@@ -1,0 +1,30 @@
+﻿{
+  // The name of the module
+  "module": "RadioPlayer",
+
+  // Where to place it on screen
+  "position": {
+    "horizontalAlignment": "left",
+    "verticalAlignment": "top",
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  // Attributes
+  "attributes": {
+    "defaultStation": "Heart",
+    "stations": [
+      {
+        "name": "Gold London",
+        "uri": "http://media-ice.musicradio.com/GoldMP3"
+      },
+      {
+        "name": "Heart Sussex",
+        "uri": "http://media-ice.musicradio.com/HeartSussexMP3"
+      }
+    ]
+  }
+}

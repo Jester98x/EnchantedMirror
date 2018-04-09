@@ -110,6 +110,9 @@
     <Compile Include="Modules\NewsFeed\NewsFeed.xaml.cs">
       <DependentUpon>NewsFeed.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Modules\RadioPlayer\RadioPlayer.xaml.cs">
+      <DependentUpon>RadioPlayer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +129,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Configuration\currentWeather.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configuration\radioPlayer.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="EnchantedMirror_TemporaryKey.pfx" />
@@ -161,6 +167,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Modules\NewsFeed\NewsFeed.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\RadioPlayer\RadioPlayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
