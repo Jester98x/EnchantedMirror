@@ -14,7 +14,7 @@ The intention is to be moduler, simple speech recognistion, person recognition a
 |News Headlines|Display headlines from feed|:white_check_mark:|
 |Twitter|Display latest *x* tweets from Twitter||
 |Diary|Integrate with, for example, Google to retrieve users schedule||
-|Internet Radio|Play a radio stream||
+|Internet Radio|Play a radio stream|:white_check_mark:|
 |Music Player|Basic music player||
 
 ### Speech control
