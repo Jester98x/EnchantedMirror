@@ -9,7 +9,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Custom:RadioPlayer 
+            Name="radioPlayer"/>
         <RelativePanel 
             VerticalAlignment="Top"
             HorizontalAlignment="Right">
